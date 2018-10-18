@@ -1,6 +1,8 @@
 package customerdomainvalidation
 
 import (
+	"customerfast/api/src/framework/common"
+
 	"github.com/thedevsaddam/govalidator"
 )
 
@@ -24,7 +26,5 @@ func Validate(obj interface{}) (map[string]interface{}, bool) {
 	validateJSON := validator.ValidateJSON()
 	mapsErrors := map[string]interface{}{"validationError": validateJSON}
 
-	hasErros := len(mapsErrors) > 0
-
-	return mapsErrors, hasErros
+	return mapsErrors, common.ContainsValue(mapsErrors)
 }
