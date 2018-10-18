@@ -6,7 +6,7 @@ import (
 
 	"customerfast/api/src/framework/common"
 
-	"customerfast/api/src/domain.model/customer"
+	"customerfast/api/src/customerContext/domain.model/customer"
 )
 
 //CustomerHandler struct of customer

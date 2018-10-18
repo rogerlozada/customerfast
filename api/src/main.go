@@ -8,7 +8,7 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/rs/cors"
 
-	"customerfast/api/src/application/customer"
+	"customerfast/api/src/customerContext/application/customer"
 )
 
 func main() {

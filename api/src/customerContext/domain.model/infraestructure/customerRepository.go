@@ -4,7 +4,7 @@ import (
 	"errors"
 	"os"
 
-	"customerfast/api/src/domain.model/customer"
+	"customerfast/api/src/customerContext/domain.model/customer"
 	"gopkg.in/mgo.v2/bson"
 )
 

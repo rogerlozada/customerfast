@@ -1,7 +1,7 @@
 package customerapplication
 
 import (
-	"customerfast/api/src/domain.model/infraestructure"
+	"customerfast/api/src/customerContext/domain.model/infraestructure"
 	"github.com/gorilla/mux"
 )
 
